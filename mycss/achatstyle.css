@@ -1,0 +1,144 @@
+:root{
+    --maincolor:#896245    ;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #f4ebd4;
+}
+
+.parent{
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 0 63px -11px gray;
+}
+.one{
+    width: 400px;
+    height:550px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.two{
+    width: 400px;
+    height:550px;
+    background-color: rgb(75, 66, 66);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.one hr{
+    width: 90%;
+    border-top: 10px;
+}
+.one > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.one img{
+    min-width: 75px;
+    max-width: 75px;
+    min-height: 75px;
+    max-height: 75px;
+    border-radius: 10px;
+}
+.product{
+    margin: 1px 20px;
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.product-2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 5px;
+
+}
+.product-2 p{
+    text-align: right;
+}
+.container{
+    height: 350px;
+    overflow-y: auto;
+}
+.Delivery,.Total{
+    display: flex;
+    justify-content: space-between;
+    margin: 1px 20px;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.two-select{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    color: white;
+    
+}
+.select{
+    width: 200px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    background-color: var(--maincolor);
+    color: white;
+    text-align: center;
+}
+.visa{
+    width: 200px;
+    height: 90px;
+}
+.visaContainer{
+    text-align: center;
+}
+.inputs{
+    display: flex;
+}
+.in1,.in2{
+width: 100%;
+background-color:var(--maincolor);
+border: none;
+height: 35px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+font-size: 20px;
+}
+form{
+    margin: 20px;
+    text-align: center;
+}
+.two p{
+    text-align: left;
+}
+.in3,.in4{
+    background-color:var(--maincolor);
+    border: none;
+    height: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 20px;
+    width: 97%;
+}
+.two p{
+    color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+}
+.Checkout{
+    background-color: #c0baba ;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 10px 0px;
+    position: relative;
+    top: 75px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Checkout:hover{
+    background-color:burlywood;
+}

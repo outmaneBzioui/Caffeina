@@ -1,0 +1,387 @@
+body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.one{
+    color: white;
+    padding: 10px;
+    margin-left: 200px;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.one:hover{
+    color: #c0baba;
+background-color: rgb(103, 117, 117);
+border-radius: 100px;
+cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: rgb(75, 66, 66);
+    padding: 0;
+    margin: 0;
+}
+div p{
+    font-family: 'Roboto', sans-serif;
+        color: white;
+    padding: 10px;
+    margin: 0;
+}
+.search > input{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    border: none;
+    padding: 10px 40px;
+border-radius: 10px;
+width: 300px;
+color: white;
+
+}
+.search{
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    margin: auto;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.parent{
+    width: 95%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.parent p{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    margin-left: 5px;
+}
+.parent input{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+width: 100px;
+color: wheat;
+flex-grow: 3;
+
+}
+.maintitle{
+color: white;
+}
+.desc{
+color: black;
+}
+.master{
+    margin: 50px;
+    background-color: gray;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+cursor: pointer;
+/* text-align: center; */
+display: flex;
+flex-direction: column;
+
+}
+.master:hover{
+    box-shadow: 7px 6px 9px -1px black;
+}
+.btnadd{
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 20px;
+    margin-top: 4px;
+    cursor: pointer;
+
+}
+.btnadd:hover{
+background-color: wheat;
+}
+.nav{
+    width: 0px;
+    height: 90%;
+    background-color: white;
+    position: fixed;
+    right: -20px;
+    top:0;
+    transition: width 1s;
+    text-wrap: nowrap;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.nav p{
+    text-align: center;
+    text-wrap: nowrap;
+    color: black;
+}
+.nav .products{
+    margin: 20px;
+    display: flex;
+}
+.nav .products img{
+    min-width: 75px;
+    max-width: 75px;
+    min-height: 75px;
+    max-height: 75px;
+    margin-right: 15px;
+}
+
+.nav .products .title{
+
+color: black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 14px;
+display: inline-block;
+text-wrap: nowrap; 
+
+}
+.nav .products .desc{
+    margin-left: 10px;
+margin: 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding: 0;
+    color: gray;
+    display: inline-block;
+text-wrap: nowrap; 
+font-size: 10px;
+}
+.nav .products .price{
+    width: 50px;
+    display: inline-block;
+    margin-top: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-wrap: nowrap; 
+margin-right: 50px;
+}
+.hr{
+    width: 90%;
+}
+.nav .products .addmin{
+    border-radius: 1000px;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border:1px solid gray;
+    cursor: pointer;
+color: gray;
+text-wrap: nowrap;
+}
+.nav .products .addmin:hover{
+background-color:bisque ;
+}
+
+.one{
+    text-wrap: nowrap;
+}
+
+.favorites{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    position: fixed;
+    right: -20px;
+    top: 0;
+    width: 0px;
+    height:100%;
+    background-color: white;
+    transition: width 1s;
+    overflow-y: auto;
+}
+
+
+.favorites{
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    right: -20px;
+    top:0;
+    transition: width 1s;
+    text-wrap: nowrap;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+.favorites p{
+    text-align: center;
+    text-wrap: nowrap;
+    color: black;
+}
+.favorites .products{
+    margin: 10px;
+    display: flex;
+}
+.favorites .products img{
+    min-width: 75px;
+    max-width: 75px;
+    min-height: 75px;
+    max-height: 75px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.favorites .products .title{
+
+color: black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 14px;
+display: inline-block;
+text-wrap: nowrap; 
+
+}
+.favorites .products .desc{
+    margin-left: 10px;
+margin: 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding: 0;
+    color: gray;
+    display: inline-block;
+text-wrap: nowrap; 
+font-size: 10px;
+}
+.favorites .products .price{
+    display: inline-block;
+    margin-top: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-wrap: nowrap; 
+margin-right: 50px;
+}
+
+.favorites .products .addmin{
+    border-radius: 5px;
+    width: fit-content;
+    height: 20px;
+    background-color: transparent;
+    border:1px solid gray;
+    cursor: pointer;
+color: gray;
+text-wrap: nowrap;
+}
+.favorites .products .addmin:hover{
+background-color: bisque;
+}
+
+
+.myfavorite{
+        color: wheat;
+}
+.myfavorite:hover{
+    color: black;
+}
+.mmhr{
+    width: 50%;
+}
+.buydiv{
+    width: 0px;
+    height: 10%;
+    background-color: white;
+    right: -20px;
+    bottom: 0;
+    position: fixed;
+    transition: width 1s;
+text-align: center;
+}
+.buydiv button{
+    background-color: #c0baba ;
+    color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 10px;
+text-wrap: nowrap;
+width: 80%;
+padding-top: 10px;
+display: inline-block;
+cursor: pointer;
+}
+.buydiv button:hover{
+    background-color:burlywood;
+}
+.btndelete{
+    width: 50%;
+    height: fit-content;
+    background-color: #c0baba;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+.btndelete:hover{
+    background-color:burlywood ;
+}
+.favoritedelete{
+    width: 50px;
+    height: fit-content;
+    background-color: #c0baba;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+.descdiv{
+
+    width: 100%;
+    height: 200px;
+    background-color: green;
+}
+.productQuantite{
+
+    width: 20px;
+display: inline-block;
+text-align: center  ;
+}
+.notification{
+    width: 0px;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    right: -20px;
+    top:0;
+    transition: width 1s;
+    text-wrap: nowrap;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.notification span{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+.productsabout{
+width: 90%;
+height: 0px;
+background-color: white;
+padding: 5px;
+font-family: 'Roboto', sans-serif;
+text-wrap: wrap;
+transition: height 1s;
+padding: 3px;
+overflow-y: hidden;
+overflow-x: hidden;
+margin: 0px 10px;
+}
